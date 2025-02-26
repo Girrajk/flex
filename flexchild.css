@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: 1px solid blue;
+    width: 100px;
+}
+#box3{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 300px;
+    flex: 0 0 400px;
+    align-self: flex-start;
+}
+#box5{
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 4;
+
+}
+#box1{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#box9{
+    align-self: self-end;
+}
